@@ -168,3 +168,19 @@ p{
     padding: 3% 2%;
    
 }
+
+/* Media Queries */
+
+@media (max-width: 1028px) {
+
+    .rotate-phone{
+        position: static;
+        transform: rotate(0deg);
+
+    }
+
+    #title{
+        text-align: center;
+    }
+    
+} 
